@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto login transparente</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="estilos/style.css">
+    
+</head>
+<body>
+    <main>
+        <form class="form" action="#" method="post" autocomplete="on">
+            <h1>Login</h1>
+
+            <div class="login">
+                <input type="text" name="login" id="ilogin" autocomplete="username" required placeholder="Username">
+                <span class="material-symbols-outlined">
+                    person
+                    </span>
+            </div>
+
+            <div class="login">
+                <input type="password" name="password" id="ipassword" autocomplete="current-password" required placeholder="Password">
+                <span class="material-symbols-outlined">
+                    lock
+                    </span>
+            </div>
+
+            <div class="remember-forget">
+                
+                <label for="icheck">
+                    <input type="checkbox" name="check" id="icheck">
+                    Remember me
+
+                </label>
+
+                <a href="#">Forgot Password?</a>
+            </div>
+            
+            <div class="submit">
+                <input type="submit" value="Login">
+            </div>
+
+            <p class="register">
+                Don't have an account?  <a href="#">Register</a>
+            </p>
+
+
+        </form>
+    </main>
+</body>
+</html>

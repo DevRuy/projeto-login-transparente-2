@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box ;
+}
+
+body,html{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    background:  url(../imagens/background.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+
+    width: 420px;
+    background-color: transparent;
+    padding: 50px;
+    border-radius: 40px;
+    border: 2px solid rgba(0, 0, 0, .2);
+    backdrop-filter: blur(30px);
+}
+
+.form{
+   display: relative;
+}
+
+.form h1{
+    text-align: center;
+    font-size: 2.2em;
+    color: white;
+
+    
+}
+
+.form .login{
+    position: relative;
+    width: 100%;
+    background-color: transparent;
+    height: 50px;
+    display: block;
+    margin: 30px 0px;
+}
+
+.login input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    outline: none;
+    padding: 0px 45px 0px 30px;
+}
+
+.login input::placeholder{
+    color: #fff;
+    font-size: 16px;
+}
+
+.login span{
+    right: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: white;
+
+}
+
+.form .remember-forget {
+    justify-content: space-between;
+    display: flex;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.form .remember-forget label{
+    cursor: pointer;
+}
+
+.form .remember-forget a{
+    text-decoration: none;
+    color: white;
+}
+
+.form .remember-forget a:hover{
+    text-decoration: underline;
+}
+
+.remember-forget label input{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.form .submit input{
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 80px;
+    outline: none;
+    font-size: 14.5px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #333;
+    margin: 20px 0px 25px 0px;
+}
+
+.register{
+    text-align: center;
+    color: white;
+
+}
+
+.register a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.register a:hover{
+    text-decoration: underline;
+    
+}
